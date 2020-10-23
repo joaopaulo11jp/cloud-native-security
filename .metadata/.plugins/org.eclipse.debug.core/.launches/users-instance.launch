@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.jboss.tools.quarkus.core.launchConfigurationType">
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="JAVA_HOME" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    </mapAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="users-service"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_CONFIGURATION_BUILD_SCOPE" value="${projects:users-service}"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="/home/joaopaulo/eclipse-workspace/cloud-native-security/users-service/mvnw"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="compile quarkus:dev"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="/home/joaopaulo/eclipse-workspace/cloud-native-security/users-service"/>
+    <stringAttribute key="process_factory_id" value="org.jboss.tools.quarkus.core.processFactory"/>
+</launchConfiguration>

@@ -1,0 +1,11 @@
+#Thu Oct 22 20:51:21 BRT 2020
+ct=quarkus
+a=startApplication
+c=0
+s=0
+d=1603410681389
+v=1.2.0
+vl=type\: 0\=maven/1\=gradle
+cmp=quarkus
+cl=debug
+l=mode\: run/debug

@@ -1,0 +1,11 @@
+postgres-dbms:
+  container_name: customers-db
+  ports: 
+    - "5432:5432"
+  image: postgres
+#  volumes:
+#   - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+  environment: 
+    - POSTGRES_USER=postgres
+    - POSTGRES_DB=postgres
+    - POSTGRES_PASSWORD=postgres
